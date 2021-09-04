@@ -1,0 +1,141 @@
+body {
+    font: 15px Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+
+/* Estilos globales */
+
+section {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Encabezado Web */
+
+header {
+    background-color: #76a5af;
+    height: 120px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+header nav.redes {
+    text-align: right;
+    margin: 0px;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+}
+
+header nav.menuppal {
+    text-align: right;
+    margin: 0px;
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+}
+
+header nav li {
+    background-color: white;
+    display: inline;
+}
+
+header h1 {
+    margin: 0px;
+    position: absolute;
+    left: 25px;
+}
+
+header div.logoweb {
+    font-size: 72px;
+    color: black;
+    padding-left: 90px;
+    padding-top: 40px;
+    margin: 0px;
+}
+
+
+/* Barra Lateral */
+
+aside {
+    width: 20%;
+    height: 2300px;
+    background-color: #c27ba0;
+    float: left;
+    margin-bottom: 10px;
+}
+
+
+/* Sección Principal */
+
+section {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+article {
+    margin-left: 280px;
+    margin-top: 20px;
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+div.acercademi {
+    background-color: teal;
+}
+
+article img {
+    width: 200px;
+    height: 200px;
+}
+
+article header {
+    background-color: white;
+    /* border: 1px solid black; */
+    height: min-content;
+}
+
+article footer {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    /* border: 1px solid black; */
+    height: min-content;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #76a5af;
+    text-align: center;
+    clear: both;
+}
+
+
+/* Página acerca de mí */
+
+table {
+    float: right;
+    width: 70%;
+    height: 1100px;
+    position: absolute;
+    top: 280px;
+    right: 100px;
+}
+
+table th {
+    background-color: rgb(252, 252, 126);
+}
