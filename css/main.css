@@ -165,40 +165,244 @@ h2 {
 
 /* Grilla para Section */
 
-.grid-section {
+.grid-section_index {
     display: grid;
-    grid-template-areas: 'section__articulo1' 'section__articulo2' 'section__articulo3' 'section__articulo4' 'section__articulo5';
+    grid-template-areas: 'section_index__articulo1' 'section_index__articulo2' 'section_index__articulo3' 'section_index__articulo4' 'section_index__articulo5';
     grid-gap: 10px;
 }
 
 
 /* Apariencia componentes grid-section */
 
-.grid-section>article {
+.grid-section_index>article {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 10px;
 }
 
-.section__articulo1 {
-    grid-area: section__articulo1;
+.section_index__articulo1 {
+    grid-area: section_index__articulo1;
 }
 
-.section__articulo2 {
-    grid-area: section__articulo2;
+.section_index__articulo2 {
+    grid-area: section_index__articulo2;
 }
 
-.section__articulo3 {
-    grid-area: section__articulo3;
+.section_index__articulo3 {
+    grid-area: section_index__articulo3;
 }
 
-.section__articulo4 {
-    grid-area: section__articulo4;
+.section_index__articulo4 {
+    grid-area: section_index__articulo4;
 }
 
-.section__articulo5 {
-    grid-area: section__articulo5;
+.section_index__articulo5 {
+    grid-area: section_index__articulo5;
 }
+
+
+/* Estilos específicos para acerca_de_mi.html */
+
+.grid-section_acercademi {
+    display: grid;
+    grid-template-areas: 'section_acercademi__articulo1';
+    grid-gap: 10px;
+}
+
+
+/* Apariencia componentes grid-section */
+
+.grid-section_acercademi>article {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px;
+}
+
+.section_acercademi__articulo1 {
+    grid-area: section_acercademi__articulo1;
+}
+
+.section_acercademi__articulo1 table th {
+    background-color: #26ece2;
+}
+
+
+/* Fin estilos específicos para la página acerca_de_mi.html */
+
+
+/* Estilos específicos para contactame.html */
+
+.grid-section_contactame {
+    display: grid;
+    grid-template-areas: 'section_contactame__articulo1';
+    grid-gap: 10px;
+}
+
+
+/* Apariencia componentes grid-section */
+
+.grid-section_contactame>article {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px;
+}
+
+.section_contactame__articulo1 {
+    grid-area: section_contactame__articulo1;
+}
+
+
+/* Fin estilos específicos para la página contactame.html */
+
+
+/* Estilos específicos para mi_blog.html */
+
+.grid-section_miblog {
+    display: grid;
+    grid-template-areas: 'section_miblog__articulo1';
+    grid-gap: 10px;
+}
+
+
+/* Apariencia componentes grid-section */
+
+.grid-section_miblog>article {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px;
+}
+
+.section_miblog__articulo1 {
+    grid-area: section_miblog__articulo1;
+}
+
+
+/* Fin estilos específicos para la página mi_blog.html */
+
+
+/* Estilos específicos para quien_soy.html */
+
+.grid-section_quiensoy {
+    display: grid;
+    grid-template-areas: 'section_quiensoy__articulo1';
+    grid-gap: 10px;
+}
+
+
+/* Apariencia componentes grid-section */
+
+.grid-section_quiensoy>article {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px;
+}
+
+.section_quiensoy__articulo1 {
+    grid-area: section_quiensoy__articulo1;
+}
+
+
+/* Fin estilos específicos para la página quien_soy.html */
+
+
+/* Estilos específicos para camino_recorrido.html */
+
+.grid-section_caminorecorrido {
+    display: grid;
+    grid-template-areas: 'section_caminorecorrido__articulo1';
+    grid-gap: 10px;
+}
+
+
+/* Apariencia componentes grid-section */
+
+.grid-section_caminorecorrido>article {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px;
+}
+
+.section_caminorecorrido__articulo1 {
+    grid-area: section_caminorecorrido__articulo1;
+}
+
+
+/* Fin estilos específicos para la página camino_recorrido.html */
+
+
+/* Estilos específicos para donde_estoy.html */
+
+.grid-section_dondeestoy {
+    display: grid;
+    grid-template-areas: 'section_dondeestoy__articulo1';
+    grid-gap: 10px;
+}
+
+
+/* Apariencia componentes grid-section */
+
+.grid-section_dondeestoy>article {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px;
+}
+
+.section_dondeestoy__articulo1 {
+    grid-area: section_dondeestoy__articulo1;
+}
+
+
+/* Fin estilos específicos para la página donde_estoy.html */
+
+
+/* Estilos específicos para hacia_donde_voy.html */
+
+.grid-section_haciadondevoy {
+    display: grid;
+    grid-template-areas: 'section_haciadondevoy__articulo1';
+    grid-gap: 10px;
+}
+
+
+/* Apariencia componentes grid-section */
+
+.grid-section_haciadondevoy>article {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px;
+}
+
+.section_haciadondevoy__articulo1 {
+    grid-area: section_haciadondevoy__articulo1;
+}
+
+
+/* Fin estilos específicos para la página hacia_donde_voy.html */
+
+
+/* Estilos específicos para como_lllegar.html */
+
+.grid-section_comollegar {
+    display: grid;
+    grid-template-areas: 'section_comollegar__articulo1';
+    grid-gap: 10px;
+}
+
+
+/* Apariencia componentes grid-section */
+
+.grid-section_comollegar>article {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px;
+}
+
+.section_comollegar__articulo1 {
+    grid-area: section_comollegar__articulo1;
+}
+
+
+/* Fin estilos específicos para la página como_llegar.html */
 
 
 /* Contenedor del Footer Principal */
@@ -263,8 +467,40 @@ h2 {
         grid-column: 3 / 7;
         grid-row: 2 / 4;
     }
-    .grid-section {
-        grid-template-areas: 'section__articulo1 section__articulo2' 'section__articulo3 section__articulo4' 'section__articulo5 section__articulo5';
+    .grid-section_index {
+        grid-template-areas: 'section_index__articulo1 section_index__articulo2' 'section_index__articulo3 section_index__articulo4' 'section_index__articulo5 section_index__articulo5';
+    }
+    /* Estilos específicos para la página acerca_de_mi.html */
+    .grid-section_acercademi {
+        grid-template-areas: 'section_acercademi__articulo1';
+    }
+    /* Estilos específicos para la página contactame.html */
+    .grid-section_contactame {
+        grid-template-areas: 'section_contactame__articulo1';
+    }
+    /* Estilos específicos para la página miblog.html */
+    .grid-section_miblog {
+        grid-template-areas: 'section_miblog__articulo1';
+    }
+    /* Estilos específicos para la página quien_soy.html */
+    .grid-section_quiensoy {
+        grid-template-areas: 'section_quiensoy__articulo1';
+    }
+    /* Estilos específicos para la página camino_recorrido.html */
+    .grid-section_caminorecorrido {
+        grid-template-areas: 'section_caminorecorrido__articulo1';
+    }
+    /* Estilos específicos para la página donde_estoy.html */
+    .grid-section_dondeestoy {
+        grid-template-areas: 'section_dondeestoy__articulo1';
+    }
+    /* Estilos específicos para la página hacia_donde_voy.html */
+    .grid-section_haciadondevoy {
+        grid-template-areas: 'section_haciadondevoy__articulo1';
+    }
+    /* Estilos específicos para la página como_llegar.html */
+    .grid-section_comollegar {
+        grid-template-areas: 'section_comollegar__articulo1';
     }
     .footer_ppal {
         grid-column: 1 / 7;
